@@ -1,0 +1,14 @@
+{
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "rows": 9,
+  "cutoff": 3,
+  "tau": 1,
+  "epsilon": 0.001,
+  "table_sha256": "06d1128a5f058e55dd5e87916fa0f5451750300fdcb9da00e9edf606b2374070",
+  "method": "Counted coherent shared walks and synthesized rotation modules; generic GQSP schedule",
+  "original_Table_VI_first_case_matches": true
+}

@@ -1,0 +1,22 @@
+{
+  "old_gqsp_sha256": "974c6862c606feec18b97fb63c0385bfb83096fbc12d96aa5a3686d7fc3e06db",
+  "new_gqsp_sha256": "a5e70a29a4951bb89060107bd5efd2acce47e86a0a272e0d7f5ba779094efc9b",
+  "all_non_plot_AST_unchanged": true,
+  "changed_function": "resource_heatmaps",
+  "revalidated_records": [
+    "results/manifest.json",
+    "results/closed/point_16_16_4_15.json",
+    "results/closed/point_4_4_1_3.json",
+    "results/closed/point_8_8_2_7.json",
+    "results/arithmetic/table_II_qualtran_provenance.json",
+    "results/open/point_8_8_4_3.json",
+    "results/open/point_4_4_1_3.json",
+    "results/open/point_4_8_1_3.json",
+    "results/open/point_8_8_2_3.json",
+    "results/open/point_4_4_2_3.json",
+    "results/open/point_4_8_4_3.json",
+    "results/open/point_4_4_4_3.json",
+    "results/open/point_4_8_2_3.json",
+    "results/open/point_8_8_1_3.json"
+  ]
+}

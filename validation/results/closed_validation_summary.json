@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "sector_dimensions": [
+    1,
+    32,
+    512
+  ],
+  "dispersion_eigenvalue_error": 1.7763568394002505e-15,
+  "correlator_commutator_sum_rule_error": 1.2212453270876722e-15,
+  "matrix_exponential_vs_eigendecomposition_error": 2.7519388267322665e-15,
+  "max_excitation_conservation_error": 1.1102230246251565e-15,
+  "polynomial_convergence": [
+    {
+      "degree": 8,
+      "state_error": 0.5776256897497443
+    },
+    {
+      "degree": 16,
+      "state_error": 0.0006240949345862032
+    },
+    {
+      "degree": 32,
+      "state_error": 5.427196341191485e-15
+    },
+    {
+      "degree": 64,
+      "state_error": 1.6393041047826403e-15
+    }
+  ],
+  "scope": "Small classical sector and polynomial validation; circuit tests are separate",
+  "source_sha256": "8c6131ca5ad1b55e9c0cc21a5c830fdea73d3f7930a86c89a5e549a05895714f"
+}

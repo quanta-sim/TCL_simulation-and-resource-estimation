@@ -1,0 +1,112 @@
+{
+  "plan": {
+    "Lx": 8,
+    "Ly": 8,
+    "L": 64,
+    "N": 2,
+    "n_max": 3,
+    "T": "10.0",
+    "mu_min": "0.5",
+    "epsilon_g": "0.1",
+    "failure_probability": "0.01",
+    "reported_times": 1,
+    "kappa": "0.1",
+    "gamma1": "0.1",
+    "gamma_phi": "0.0",
+    "epsilon_n": "0.0197642353760523708249930846527044908357472196207826051678594053299537152414952388834015507",
+    "epsilon_phi": "0.01875",
+    "state_tolerance": "0.0015625",
+    "N_shot": 2078792,
+    "N_step": 6291456000,
+    "dt": "0.00000000158945719401041666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "epsilon_step": "0.0000000000000413921144273546006944444444444444444444444444444444444444444444444444444444444444444444444",
+    "alpha": "260.102503368816293571513131712751662968679072487728720391143293369847426164326404746386712",
+    "alpha_int": "221.702503368816293571513131712751662968679072487728720391143293369847426164326404746386712",
+    "alpha_hop": "38.4",
+    "lambda_D": "32.0",
+    "x_step": "0.000225940870697357247955544658387301470379707472268158769243117731491839409146838546502485088",
+    "probabilities": {
+      "photon_loss": 0.6,
+      "atomic_loss": 0.4,
+      "dephasing": 0.0
+    },
+    "b": 36,
+    "B": 27,
+    "K": 6,
+    "m": 53,
+    "n_signal": 13,
+    "walk_queries": 12,
+    "two_eta_bound": "1.25082257079839389570537705382529979603612447356225129289518987851823594398434587900100751e-30",
+    "previous_degree_bound": "0.000000000000000000000000071897927362847186002922902279879958734169382564801936563627572737904571508963375130046261",
+    "polynomial_budget": "0.0000000000000000000000000000535408480239755276053063111540711956259645061728395061728395061728395061728395061728395062",
+    "sampling_error_bound": "0.000130208333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "sampling_budget": "0.000130208333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "implementation_error_bound": "0.000520833333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "implementation_budget": "0.000520833333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "energy_frame": "uniform conserved-charge term removed; nu=1, Delta=0, g=1, t=0.05",
+    "full_channel_error_certified": false,
+    "dilation_remainder_budgeted": false,
+    "planning_decimal_digits": 90
+  },
+  "components": {
+    "C_dir": 8146,
+    "C_F": 3614,
+    "a": 148,
+    "workspace_w": 186
+  },
+  "channels": [
+    {
+      "channel": "photon_loss",
+      "probability": 0.6,
+      "C_J": 306,
+      "walk_Toffolis": 13291,
+      "T_step": 1179780,
+      "peak_logical_qubits": 689,
+      "arithmetic_T_step": 1116444,
+      "synthesis_T_step": 63336
+    },
+    {
+      "channel": "atomic_loss",
+      "probability": 0.4,
+      "C_J": 6,
+      "walk_Toffolis": 12991,
+      "T_step": 1154580,
+      "peak_logical_qubits": 689,
+      "arithmetic_T_step": 1091244,
+      "synthesis_T_step": 63336
+    },
+    {
+      "channel": "dephasing",
+      "probability": 0.0,
+      "C_J": 0,
+      "walk_Toffolis": 12985,
+      "T_step": 1154076,
+      "peak_logical_qubits": 689,
+      "arithmetic_T_step": 1090740,
+      "synthesis_T_step": 63336
+    }
+  ],
+  "totals": {
+    "mean_T_step": 1169700.0,
+    "worst_T_step": 1179780,
+    "mean_T_run": 7359116083200000.0,
+    "worst_T_run": 7422533959680000,
+    "N_shot": 2078792,
+    "N_step": 6291456000,
+    "total_mean_T": 1.5298071640827494e+22,
+    "peak_logical_qubits": 689
+  },
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "full_channel_error_certified": false,
+  "dilation_remainder_budgeted": false,
+  "numerical_phases_generated": false,
+  "exclusions": [
+    "Input-state preparation",
+    "Catalyst preparation",
+    "Physical error correction"
+  ]
+}

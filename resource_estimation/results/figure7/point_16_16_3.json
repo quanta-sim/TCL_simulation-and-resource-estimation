@@ -1,0 +1,80 @@
+{
+  "plan": {
+    "Lx": 16,
+    "Ly": 16,
+    "L": 256,
+    "N": 2,
+    "n_max": 3,
+    "tau": "1.0",
+    "epsilon": "0.001",
+    "b": 24,
+    "B": 23,
+    "K": 1117,
+    "m": 26,
+    "n_signal": 2235,
+    "walk_queries": 2234,
+    "alpha": "1040.4100134752651742860525268510066518747162899509148815645731734793897046573056",
+    "alpha_local": "886.81001347526517428605252685100665187471628995091488156457317347938970465730562",
+    "alpha_int": "886.81001347526517428605252685100665187471628995091488156457317347938970465730562",
+    "alpha_hop": "153.6",
+    "two_eta_bound": "0.00000002848846367539181774887326151292495669190271677011345435508488859034794702241054",
+    "previous_degree_bound": "0.000000041987712228704557525154161526340011871862354240321120994450215915641024177677578",
+    "polynomial_budget": "0.00000003125",
+    "outer_rotation_error_bound": "0.000048705107794033748804634306243212265488520428192831065925614457579473224374884982",
+    "signal_rotation_error_bound": "0.00015694185154378089058318751964635451762782052772350672282008084275889328870288306",
+    "energy_origin": "uniform conserved-charge term removed; nu=1, Delta=0",
+    "planning_decimal_digits": 80
+  },
+  "resources": [
+    {
+      "Lx": 16,
+      "Ly": 16,
+      "L": 256,
+      "N": 2,
+      "n_max": 3,
+      "mode": "direct",
+      "b": 24,
+      "B": 23,
+      "alpha": "1040.4100134752651742860525268510066518747162899509148815645731734793897046573056",
+      "coherent_ccx": 46406,
+      "peak_logical_qubits": 1338,
+      "arbitrary_rotations": 2
+    },
+    {
+      "Lx": 16,
+      "Ly": 16,
+      "L": 256,
+      "N": 2,
+      "n_max": 3,
+      "mode": "paired",
+      "b": 24,
+      "B": 23,
+      "alpha": "1040.4100134752651742860525268510066518747162899509148815645731734793897046573056",
+      "coherent_ccx": 49470,
+      "peak_logical_qubits": 1850,
+      "arbitrary_rotations": 2
+    },
+    {
+      "Lx": 16,
+      "Ly": 16,
+      "L": 256,
+      "N": 2,
+      "n_max": 3,
+      "mode": "sparse",
+      "b": 24,
+      "B": 23,
+      "alpha": "1040.4100134752651742860525268510066518747162899509148815645731734793897046573056",
+      "coherent_ccx": 52542,
+      "peak_logical_qubits": 1850,
+      "arbitrary_rotations": 2
+    }
+  ],
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "method": "Actual FixedSharedWalk recursive decomposition and verified clean-bank allocation",
+  "outer_GQSP_rotation_synthesis_included": false,
+  "catalyst_preparation_included": false
+}

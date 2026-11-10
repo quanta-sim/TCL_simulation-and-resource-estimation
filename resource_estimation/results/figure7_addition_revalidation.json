@@ -1,0 +1,31 @@
+{
+  "old_gqsp_sha256": "a5e70a29a4951bb89060107bd5efd2acce47e86a0a272e0d7f5ba779094efc9b",
+  "new_gqsp_sha256": "33212f4327948639369d75a8ce5a61dab044c290bede8b86da349292157f3ff0",
+  "existing_function_AST_unchanged": true,
+  "added_functions": [
+    "figure7_point",
+    "figure7_table",
+    "plot_figure7"
+  ],
+  "revalidated_records": [
+    "results/manifest.json",
+    "results/closed/point_16_16_4_15.json",
+    "results/closed/point_4_4_1_3.json",
+    "results/closed/point_8_8_2_7.json",
+    "results/arithmetic/table_II_qualtran_provenance.json",
+    "results/open/point_8_8_4_3.json",
+    "results/open/point_4_4_1_3.json",
+    "results/open/point_4_8_1_3.json",
+    "results/open/point_8_8_2_3.json",
+    "results/open/point_4_4_2_3.json",
+    "results/open/point_4_8_4_3.json",
+    "results/open/point_4_4_4_3.json",
+    "results/open/point_4_8_2_3.json",
+    "results/open/point_8_8_1_3.json"
+  ],
+  "cache_fast_path_revalidation": {
+    "old_gqsp_sha256": "33212f4327948639369d75a8ce5a61dab044c290bede8b86da349292157f3ff0",
+    "new_gqsp_sha256": "57b955b7b1fabc7a9700ff8e52c28e7b437de7e2d836dc925456f2103de72d74",
+    "all_functions_except_figure7_table_AST_unchanged": true
+  }
+}

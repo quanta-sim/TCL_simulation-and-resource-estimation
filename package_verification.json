@@ -1,0 +1,99 @@
+{
+  "notebooks": {
+    "resource_estimation/closed_system_resources.ipynb": {
+      "executed_code_cells": 4,
+      "errors": 0
+    },
+    "resource_estimation/open_system_resources.ipynb": {
+      "executed_code_cells": 4,
+      "errors": 0
+    },
+    "resource_estimation/manuscript_tables.ipynb": {
+      "executed_code_cells": 8,
+      "errors": 0
+    },
+    "validation/closed_system.ipynb": {
+      "executed_code_cells": 6,
+      "errors": 0
+    },
+    "validation/open_system.ipynb": {
+      "executed_code_cells": 4,
+      "errors": 0
+    }
+  },
+  "gate_tests": "24 passed",
+  "resource_python_files": [
+    "block_encoding.py",
+    "walk.py",
+    "gqsp.py"
+  ],
+  "source_sha256": {
+    "resource_estimation/block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "resource_estimation/gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73",
+    "resource_estimation/walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "validation/validation.py": "8c6131ca5ad1b55e9c0cc21a5c830fdea73d3f7930a86c89a5e549a05895714f"
+  },
+  "initial_package_relocated_execution_verified": true,
+  "latest_validation_execution": "Both validation notebooks re-executed in package directory after adding Figure 8.",
+  "figure8_checks": {
+    "status": "PASS",
+    "parameters": {
+      "Lx": 4,
+      "Ly": 4,
+      "N": 1,
+      "n_max": 2,
+      "hopping": 0.2,
+      "coupling": 1,
+      "Delta": 0,
+      "nu": 1
+    },
+    "reference": "Lowest Q=1 eigenstate; Q=2 addition and vacuum removal",
+    "reference_energy": -2.477032961426902,
+    "addition_weight": 1.0428559586360646,
+    "removal_weight": 0.04285595863606587,
+    "removal_pole": -2.477032961426902,
+    "nearest_addition_pole": -2.464379557964463,
+    "pole_frequency_error": 4.440892098500626e-16,
+    "photon_weight_error": 1.6653345369377348e-16,
+    "commutator_sum_rule_error": 1.2212453270876722e-15,
+    "hann_vs_time_quadrature_error": 1.867190958597907e-14,
+    "windows": [
+      20,
+      60,
+      200
+    ],
+    "frequency_grid_points": 1601,
+    "error_test_seed": 917,
+    "hard_window_time_points": 601,
+    "deterministic_bound_over_observed": 20.216515669424936,
+    "scope": "Recalculated physical Figure 8; same definitions and parameters, with explicit numerical grids. Not digitized image data or a shot-concentration certificate.",
+    "source_sha256": "8c6131ca5ad1b55e9c0cc21a5c830fdea73d3f7930a86c89a5e549a05895714f"
+  },
+  "figure7": {
+    "resource_rows": 60,
+    "earlier_qualtran_sweep_reused": true,
+    "all_counts_independently_matched": true,
+    "table_driven_plot": true
+  },
+  "closed_heatmaps": {
+    "rows": 9,
+    "shape": [
+      3,
+      3
+    ],
+    "lattices": [
+      "4x4",
+      "4x8",
+      "8x8"
+    ],
+    "emitters": [
+      1,
+      2,
+      4
+    ],
+    "cutoff": 3,
+    "tau": 1,
+    "epsilon": 0.001,
+    "table_driven": true
+  }
+}

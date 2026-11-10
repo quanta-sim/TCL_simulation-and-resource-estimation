@@ -1,0 +1,4 @@
+lattice,L,N,n_max,b,b_alias,direct_analytical,direct_qualtran_primitive_subtotal,direct_difference,sparse_analytical,sparse_qualtran_primitive_subtotal,sparse_difference,exact_match,direct_destination_bound_slack,sparse_destination_bound_slack,direct_upper_bound_with_DEST_slack,sparse_upper_bound_with_DEST_slack,primitive_ledger_bound_supported,alpha_TCL,alpha_TCL_0,full_block_encoding_verified
+4 x 4,16,1,3,20,20,1016,996,-20,1222,1182,-40,False,20,40,1016,1222,True,101,69,False
+8 x 8,64,2,7,20,20,4186,4162,-24,5356,5308,-48,False,24,48,4186,5356,True,1004,716,False
+16 x 16,256,4,15,20,20,24854,24826,-28,31020,30964,-56,False,28,56,24854,31020,True,9598,7166,False

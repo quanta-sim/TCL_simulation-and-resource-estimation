@@ -1,0 +1,4 @@
+channel,reported_T_step,qualtran_T_step,difference_T,difference_CJ,difference_walk,reported_qubits,qualtran_qubits,difference_qubits
+photon_loss,429786,429786,0,0,0,434,434,0
+atomic_loss,406602,406602,0,0,0,434,434,0
+dephasing,406098,406098,0,0,0,434,434,0

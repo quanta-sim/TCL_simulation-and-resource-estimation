@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "parameters": {
+    "cavities": 2,
+    "emitters_per_cavity": 2,
+    "photon_cutoff": 2,
+    "maximum_total_excitation": 2,
+    "coupling_g": 1.0,
+    "hopping_t": 0.2,
+    "detuning": 0.0,
+    "polariton_potential": 0.0,
+    "photon_loss": 0.1,
+    "unequal_relaxation_per_cavity": [
+      0.02,
+      0.2
+    ],
+    "equal_relaxation_per_cavity": [
+      0.11,
+      0.11
+    ],
+    "dephasing": 0.0,
+    "initial_state": "photons |0,0>; emitters |ee;gg>",
+    "final_time_in_inverse_g": 4.0
+  },
+  "scope": "Ideal averaged channel and small-graph physical validation; not gate-level synthesis, a diamond-norm certificate, a 2D resource benchmark, or a quantum-advantage demonstration.",
+  "sector_dimensions": [
+    1,
+    6,
+    17
+  ],
+  "hilbert_dimension": 24,
+  "density_block_entries": 326,
+  "full_cutoff_hilbert_dimension": 144,
+  "photon_cutoff_exact_for_this_initial_state_and_transient_observables": true,
+  "nonzero_jump_channels": 6,
+  "dissipative_normalization": 0.84,
+  "time_points": 257,
+  "step_counts": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "trace_norm_convention": "||rho_approx - rho_exact||_1, with no factor 1/2",
+  "monte_carlo_sampling": false,
+  "method": "Expected independently resampled channel at each step, iterated deterministically.",
+  "symmetric_split_reference": "Exact Hamiltonian half steps and exact independent local amplitude-damping/pure-loss channels. Equal timestep is not equal gate cost.",
+  "analytic_initial_slopes": {
+    "unequal": {
+      "singlet1": 0.10999999999999999,
+      "singlet1_expected": 0.11,
+      "imbalance1": 0.18,
+      "imbalance1_expected": 0.18000000000000002
+    },
+    "equal": {
+      "singlet1": 0.10999999999999999,
+      "singlet1_expected": 0.11,
+      "imbalance1": 0.0,
+      "imbalance1_expected": 0.0
+    }
+  },
+  "checks": {
+    "exact_unequal": {
+      "minimum_state_eigenvalue": -1.0409558387254943e-15,
+      "maximum_trace_error": 8.881784197001252e-16
+    },
+    "exact_equal": {
+      "minimum_state_eigenvalue": -6.099997749396384e-16,
+      "maximum_trace_error": 1.7763568394002505e-15
+    },
+    "full_tensor_product_reference_frobenius_residual": 1.6179417190418885e-15,
+    "local_channels_vs_exact_dissipator_frobenius_residual": 2.733786324586783e-15
+  },
+  "convergence": [
+    {
+      "method": "sampled",
+      "steps": 32,
+      "dt": 0.125,
+      "trace_norm_error": 0.07392778862599711,
+      "maximum_photon_error": 0.0209377226716837,
+      "maximum_factorial_error": 0.0006022135603425127,
+      "maximum_photon_error_over_time": 0.02253133585706646,
+      "maximum_factorial_error_over_time": 0.021707380195029324,
+      "maximum_kraus_completeness_error": 3.2918509084289046e-16,
+      "maximum_trace_error": 2.886579864025407e-15,
+      "maximum_hermiticity_error": 4.0756974558720437e-16,
+      "minimum_state_eigenvalue": -7.797274891133969e-17
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 32,
+      "dt": 0.125,
+      "trace_norm_error": 0.00014579868681922472,
+      "maximum_photon_error": 8.404540564499463e-06,
+      "maximum_factorial_error": 5.048698620280234e-07,
+      "maximum_photon_error_over_time": 1.3674517998829572e-05,
+      "maximum_factorial_error_over_time": 8.20892464203915e-06,
+      "maximum_kraus_completeness_error": 2.383953154760249e-16,
+      "maximum_trace_error": 3.3306690738754696e-15,
+      "maximum_hermiticity_error": 6.340807334340903e-16,
+      "minimum_state_eigenvalue": -4.4347090385848654e-16
+    },
+    {
+      "method": "sampled",
+      "steps": 64,
+      "dt": 0.0625,
+      "trace_norm_error": 0.036751066296265164,
+      "maximum_photon_error": 0.010180851246261446,
+      "maximum_factorial_error": 0.00011170834620592967,
+      "maximum_photon_error_over_time": 0.011239297134017168,
+      "maximum_factorial_error_over_time": 0.01065110339996983,
+      "maximum_kraus_completeness_error": 2.484438262117402e-16,
+      "maximum_trace_error": 4.440892098500626e-15,
+      "maximum_hermiticity_error": 4.979043614791632e-16,
+      "minimum_state_eigenvalue": -3.7051357258216735e-17
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 64,
+      "dt": 0.0625,
+      "trace_norm_error": 3.638143731331408e-05,
+      "maximum_photon_error": 2.120860747578668e-06,
+      "maximum_factorial_error": 1.2306494578950833e-07,
+      "maximum_photon_error_over_time": 3.4162991522368458e-06,
+      "maximum_factorial_error_over_time": 2.085597662349059e-06,
+      "maximum_kraus_completeness_error": 2.3660261508372744e-16,
+      "maximum_trace_error": 8.881784197001252e-15,
+      "maximum_hermiticity_error": 2.7343860801566364e-15,
+      "minimum_state_eigenvalue": -4.5737681771844725e-16
+    },
+    {
+      "method": "sampled",
+      "steps": 128,
+      "dt": 0.03125,
+      "trace_norm_error": 0.01831815548645261,
+      "maximum_photon_error": 0.005013329119591958,
+      "maximum_factorial_error": 0.00012452355659464676,
+      "maximum_photon_error_over_time": 0.005588955545131391,
+      "maximum_factorial_error_over_time": 0.0052915080304192785,
+      "maximum_kraus_completeness_error": 2.236147780806636e-16,
+      "maximum_trace_error": 3.9968028886505635e-15,
+      "maximum_hermiticity_error": 1.0375213028132386e-15,
+      "minimum_state_eigenvalue": -1.0179869722568257e-16
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 128,
+      "dt": 0.03125,
+      "trace_norm_error": 9.091137984775263e-06,
+      "maximum_photon_error": 5.31435262351998e-07,
+      "maximum_factorial_error": 3.0570744380398196e-08,
+      "maximum_photon_error_over_time": 8.539305833554778e-07,
+      "maximum_factorial_error_over_time": 5.213502398682124e-07,
+      "maximum_kraus_completeness_error": 2.221473956582431e-16,
+      "maximum_trace_error": 1.4988010832439613e-14,
+      "maximum_hermiticity_error": 6.870932262181647e-15,
+      "minimum_state_eigenvalue": -1.5078677556680437e-15
+    },
+    {
+      "method": "sampled",
+      "steps": 256,
+      "dt": 0.015625,
+      "trace_norm_error": 0.009144267602173906,
+      "maximum_photon_error": 0.002486784802753106,
+      "maximum_factorial_error": 8.501881360756247e-05,
+      "maximum_photon_error_over_time": 0.002788420380511192,
+      "maximum_factorial_error_over_time": 0.00263387152903255,
+      "maximum_kraus_completeness_error": 2.3067212427055523e-16,
+      "maximum_trace_error": 1.3322676295501878e-14,
+      "maximum_hermiticity_error": 1.1522143391702077e-15,
+      "minimum_state_eigenvalue": -1.158142678976476e-16
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 256,
+      "dt": 0.015625,
+      "trace_norm_error": 2.272521338703367e-06,
+      "maximum_photon_error": 1.3293487188814623e-07,
+      "maximum_factorial_error": 7.630489684551378e-09,
+      "maximum_photon_error_over_time": 2.1347365519730488e-07,
+      "maximum_factorial_error_over_time": 1.3033444656862514e-07,
+      "maximum_kraus_completeness_error": 2.221123721350115e-16,
+      "maximum_trace_error": 6.106226635438361e-15,
+      "maximum_hermiticity_error": 5.011753160273683e-15,
+      "minimum_state_eigenvalue": -4.339157710972369e-15
+    },
+    {
+      "method": "sampled",
+      "steps": 512,
+      "dt": 0.0078125,
+      "trace_norm_error": 0.0045683764248406426,
+      "maximum_photon_error": 0.0012383486847796776,
+      "maximum_factorial_error": 4.819001469003048e-05,
+      "maximum_photon_error_over_time": 0.0013922840167879258,
+      "maximum_factorial_error_over_time": 0.0013139398400867641,
+      "maximum_kraus_completeness_error": 2.2500132228585327e-16,
+      "maximum_trace_error": 5.662137425588298e-15,
+      "maximum_hermiticity_error": 2.1874275192707705e-15,
+      "minimum_state_eigenvalue": -1.233889362933536e-16
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 512,
+      "dt": 0.0078125,
+      "trace_norm_error": 5.681138951480613e-07,
+      "maximum_photon_error": 3.3238415908520835e-08,
+      "maximum_factorial_error": 1.906822144626119e-09,
+      "maximum_photon_error_over_time": 5.336781727649509e-08,
+      "maximum_factorial_error_over_time": 3.258339198453086e-08,
+      "maximum_kraus_completeness_error": 2.2205222795183613e-16,
+      "maximum_trace_error": 3.397282455352979e-14,
+      "maximum_hermiticity_error": 5.11746655957909e-15,
+      "minimum_state_eigenvalue": -3.2587232707746674e-15
+    },
+    {
+      "method": "sampled",
+      "steps": 1024,
+      "dt": 0.00390625,
+      "trace_norm_error": 0.0022832422207655686,
+      "maximum_photon_error": 0.0006179043106148141,
+      "maximum_factorial_error": 2.5514087665823304e-05,
+      "maximum_photon_error_over_time": 0.0006956501394294046,
+      "maximum_factorial_error_over_time": 0.0006562178210167691,
+      "maximum_kraus_completeness_error": 2.2216075617701815e-16,
+      "maximum_trace_error": 3.1530333899354446e-14,
+      "maximum_hermiticity_error": 2.6351403568313903e-15,
+      "minimum_state_eigenvalue": -2.5706827996389553e-16
+    },
+    {
+      "method": "symmetric_split",
+      "steps": 1024,
+      "dt": 0.00390625,
+      "trace_norm_error": 1.420274337996209e-07,
+      "maximum_photon_error": 8.309795962446742e-09,
+      "maximum_factorial_error": 4.765853267585385e-10,
+      "maximum_photon_error_over_time": 1.3341874494088302e-08,
+      "maximum_factorial_error_over_time": 8.145801810854891e-09,
+      "maximum_kraus_completeness_error": 1.110354724715391e-16,
+      "maximum_trace_error": 1.1746159600534156e-13,
+      "maximum_hermiticity_error": 1.0584262443760226e-14,
+      "minimum_state_eigenvalue": -8.258851706339948e-15
+    }
+  ],
+  "observed_orders": {
+    "sampled": {
+      "trace_norm_error": {
+        "halving_ratios": [
+          2.0115821410468855,
+          2.006264567600423,
+          2.003239218644231,
+          2.001644950370499,
+          2.0008286388944185
+        ],
+        "last_pair_order": 1.0005976128190734
+      },
+      "maximum_photon_error": {
+        "halving_ratios": [
+          2.056578783564128,
+          2.030756609709693,
+          2.0159883211614167,
+          2.0081458746778944,
+          2.0041107716946045
+        ],
+        "last_pair_order": 1.0029622517256729
+      },
+      "maximum_factorial_error": {
+        "halving_ratios": [
+          5.390945088671863,
+          0.8970860555289664,
+          1.464658836212816,
+          1.7642412884582728,
+          1.888761037478996
+        ],
+        "last_pair_order": 0.9174401861880841
+      }
+    },
+    "symmetric_split": {
+      "trace_norm_error": {
+        "halving_ratios": [
+          4.007502110585074,
+          4.001857344398611,
+          4.000463199154115,
+          4.000115748112629,
+          4.000029289760903
+        ],
+        "last_pair_order": 2.0000105640095236
+      },
+      "maximum_photon_error": {
+        "halving_ratios": [
+          3.962796979525747,
+          3.99081675196387,
+          3.9977114718187496,
+          3.9994346377399927,
+          3.999907586026227
+        ],
+        "last_pair_order": 1.9999666683195416
+      },
+      "maximum_factorial_error": {
+        "halving_ratios": [
+          4.102466862428547,
+          4.025578973746447,
+          4.006393513943339,
+          4.001678764879002,
+          4.001008922358637
+        ],
+        "last_pair_order": 2.000363845936253
+      }
+    }
+  },
+  "final_exact_observables": {
+    "unequal": {
+      "n1": 0.8313306190274315,
+      "factorial1": 0.5622873848506406,
+      "imbalance1": -0.010858272732202787,
+      "singlet1": 0.10994077959822815,
+      "n2": 0.09192051357750357,
+      "factorial2": 0.007047669770143124,
+      "imbalance2": -0.007250071563116991,
+      "singlet2": 0.0003268526015709689
+    },
+    "equal": {
+      "n1": 0.8267949982030318,
+      "factorial1": 0.561872335916674,
+      "imbalance1": -1.3877787807814457e-17,
+      "singlet1": 0.10841826667064057,
+      "n2": 0.09107276367596291,
+      "factorial2": 0.006993814858655175,
+      "imbalance2": 0.0,
+      "singlet2": 0.000140950030181497
+    }
+  },
+  "maximum_equal_rate_imbalance": 2.7755575615628914e-17,
+  "maximum_equal_rate_singlet_probability": 0.11178470778375366,
+  "maximum_unequal_rate_singlet_probability": 0.11294310665770212,
+  "maximum_unequal_rate_imbalance": 0.07159059534099253,
+  "maximum_unequal_vs_equal_photon_difference": 0.004535620824399733,
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "source_sha256": "8c6131ca5ad1b55e9c0cc21a5c830fdea73d3f7930a86c89a5e549a05895714f"
+}

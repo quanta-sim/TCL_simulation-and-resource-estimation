@@ -1,0 +1,12 @@
+{
+  "exit_code": 0,
+  "pytest_output": "........................                                                 [100%]\n24 passed in 341.25s (0:05:41)",
+  "validation_sha256": "8c6131ca5ad1b55e9c0cc21a5c830fdea73d3f7930a86c89a5e549a05895714f",
+  "resources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "resource_addition_revalidation": "All existing accounting/planning AST unchanged; only new Figure 7 functions and CLI actions added. Prior 24 gate tests remain applicable.",
+  "closed_grid_addition_revalidation": "Existing accounting/planning/circuit AST unchanged; new grid composition and heatmap rendering only."
+}

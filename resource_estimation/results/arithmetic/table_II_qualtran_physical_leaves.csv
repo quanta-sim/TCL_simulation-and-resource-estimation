@@ -1,0 +1,459 @@
+L,N,n_max,primitive,leaf_type,leaf,leaf_repr,multiplicity,uncompute
+16,1,3,DEC,And,And,"And(cv1=1, cv2=0, uncompute=False)",15,False
+16,1,3,DEC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",15,True
+16,1,3,DEC,CNOT,CNOT,CNOT(),31,False
+16,1,3,DEC,Join,Join,Join(dtype=QAny(bitsize=32)),1,False
+16,1,3,DEC,Join,Join,Join(dtype=QUInt(bitsize=4)),1,False
+16,1,3,DEC,Split,Split,Split(dtype=QAny(bitsize=32)),1,False
+16,1,3,DEC,Split,Split,Split(dtype=QUInt(bitsize=4)),1,False
+16,1,3,DEC,Toffoli,Toffoli,Toffoli(),16,False
+16,1,3,DEC,XGate,X,XGate(),32,False
+16,1,3,DEST,CNOT,CNOT,CNOT(),14,False
+16,1,3,DEST,Join,Join,Join(dtype=QUInt(bitsize=4)),2,False
+16,1,3,DEST,Split,Split,Split(dtype=QUInt(bitsize=4)),2,False
+16,1,3,DEST,Toffoli,Toffoli,Toffoli(),2,False
+16,1,3,DEST,XGate,X,XGate(),2,False
+16,1,3,INC,And,And,"And(cv1=1, cv2=0, uncompute=False)",15,False
+16,1,3,INC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",15,True
+16,1,3,INC,CNOT,CNOT,CNOT(),31,False
+16,1,3,INC,Join,Join,Join(dtype=QAny(bitsize=32)),1,False
+16,1,3,INC,Join,Join,Join(dtype=QUInt(bitsize=4)),1,False
+16,1,3,INC,Split,Split,Split(dtype=QAny(bitsize=32)),1,False
+16,1,3,INC,Split,Split,Split(dtype=QUInt(bitsize=4)),1,False
+16,1,3,INC,Toffoli,Toffoli,Toffoli(),16,False
+16,1,3,LOAD,And,And,"And(cv1=1, cv2=0, uncompute=False)",30,False
+16,1,3,LOAD,And,And†,"And(cv1=1, cv2=1, uncompute=True)",30,True
+16,1,3,LOAD,CNOT,CNOT,CNOT(),30,False
+16,1,3,LOAD,CZ,CZ,CZ(),32,False
+16,1,3,LOAD,Hadamard,H,Hadamard(),4,False
+16,1,3,LOAD,Join,Join,Join(dtype=QAny(bitsize=2)),1,False
+16,1,3,LOAD,Join,Join,Join(dtype=QAny(bitsize=32)),1,False
+16,1,3,LOAD,Join,Join,Join(dtype=QUInt(bitsize=4)),1,False
+16,1,3,LOAD,Split,Split,Split(dtype=QAny(bitsize=2)),1,False
+16,1,3,LOAD,Split,Split,Split(dtype=QAny(bitsize=32)),1,False
+16,1,3,LOAD,Split,Split,Split(dtype=QUInt(bitsize=4)),1,False
+16,1,3,O_F,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=2), dirty=False)",2,False
+16,1,3,O_F,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,O_F,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=4), dirty=False)",1,False
+16,1,3,O_F,And,And,"And(cv1=1, cv2=0, uncompute=False)",181,False
+16,1,3,O_F,And,And†,"And(cv1=1, cv2=0, uncompute=True)",1,True
+16,1,3,O_F,And,And,"And(cv1=1, cv2=1, uncompute=False)",1,False
+16,1,3,O_F,And,And†,"And(cv1=1, cv2=1, uncompute=True)",181,True
+16,1,3,O_F,CNOT,CNOT,CNOT(),304,False
+16,1,3,O_F,CZ,CZ,CZ(),128,False
+16,1,3,O_F,Free,Free,"Free(dtype=QAny(bitsize=2), dirty=False)",2,False
+16,1,3,O_F,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,O_F,Free,Free,"Free(dtype=QUInt(bitsize=4), dirty=False)",1,False
+16,1,3,O_F,Hadamard,H,Hadamard(),16,False
+16,1,3,O_F,Join,Join,Join(dtype=QAny(bitsize=2)),6,False
+16,1,3,O_F,Join,Join,Join(dtype=QAny(bitsize=32)),8,False
+16,1,3,O_F,Join,Join,Join(dtype=QUInt(bitsize=4)),10,False
+16,1,3,O_F,Split,Split,Split(dtype=QAny(bitsize=2)),6,False
+16,1,3,O_F,Split,Split,Split(dtype=QAny(bitsize=32)),8,False
+16,1,3,O_F,Split,Split,Split(dtype=QUInt(bitsize=4)),10,False
+16,1,3,O_F,Toffoli,Toffoli,Toffoli(),4,False
+16,1,3,O_F,XGate,X,XGate(),6,False
+16,1,3,O_R,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=2), dirty=False)",2,False
+16,1,3,O_R,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,O_R,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=4), dirty=False)",1,False
+16,1,3,O_R,And,And,"And(cv1=1, cv2=0, uncompute=False)",181,False
+16,1,3,O_R,And,And†,"And(cv1=1, cv2=0, uncompute=True)",1,True
+16,1,3,O_R,And,And,"And(cv1=1, cv2=1, uncompute=False)",1,False
+16,1,3,O_R,And,And†,"And(cv1=1, cv2=1, uncompute=True)",181,True
+16,1,3,O_R,CNOT,CNOT,CNOT(),304,False
+16,1,3,O_R,CZ,CZ,CZ(),128,False
+16,1,3,O_R,Free,Free,"Free(dtype=QAny(bitsize=2), dirty=False)",2,False
+16,1,3,O_R,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,O_R,Free,Free,"Free(dtype=QUInt(bitsize=4), dirty=False)",1,False
+16,1,3,O_R,Hadamard,H,Hadamard(),16,False
+16,1,3,O_R,Join,Join,Join(dtype=QAny(bitsize=2)),6,False
+16,1,3,O_R,Join,Join,Join(dtype=QAny(bitsize=32)),8,False
+16,1,3,O_R,Join,Join,Join(dtype=QUInt(bitsize=4)),10,False
+16,1,3,O_R,Split,Split,Split(dtype=QAny(bitsize=2)),6,False
+16,1,3,O_R,Split,Split,Split(dtype=QAny(bitsize=32)),8,False
+16,1,3,O_R,Split,Split,Split(dtype=QUInt(bitsize=4)),10,False
+16,1,3,O_R,Toffoli,Toffoli,Toffoli(),4,False
+16,1,3,O_R,XGate,X,XGate(),6,False
+16,1,3,PREP_hop,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,PREP_hop,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+16,1,3,PREP_hop,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+16,1,3,PREP_hop,And,And,"And(cv1=1, cv2=0, uncompute=False)",63,False
+16,1,3,PREP_hop,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+16,1,3,PREP_hop,And,And†,"And(cv1=1, cv2=1, uncompute=True)",82,True
+16,1,3,PREP_hop,CNOT,CNOT,CNOT(),458,False
+16,1,3,PREP_hop,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,PREP_hop,Hadamard,H,Hadamard(),26,False
+16,1,3,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+16,1,3,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=26)),2,False
+16,1,3,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=6)),2,False
+16,1,3,PREP_hop,Join,Join,Join(dtype=QUInt(bitsize=6)),2,False
+16,1,3,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+16,1,3,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=26)),2,False
+16,1,3,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=6)),2,False
+16,1,3,PREP_hop,Split,Split,Split(dtype=QUInt(bitsize=6)),2,False
+16,1,3,PREP_hop,Toffoli,Toffoli,Toffoli(),6,False
+16,1,3,PREP_hop,XGate,X,XGate(),80,False
+16,1,3,PREP_local,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,PREP_local,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+16,1,3,PREP_local,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+16,1,3,PREP_local,And,And,"And(cv1=1, cv2=0, uncompute=False)",127,False
+16,1,3,PREP_local,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+16,1,3,PREP_local,And,And†,"And(cv1=1, cv2=1, uncompute=True)",146,True
+16,1,3,PREP_local,CNOT,CNOT,CNOT(),1160,False
+16,1,3,PREP_local,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,PREP_local,Hadamard,H,Hadamard(),27,False
+16,1,3,PREP_local,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+16,1,3,PREP_local,Join,Join,Join(dtype=QAny(bitsize=27)),2,False
+16,1,3,PREP_local,Join,Join,Join(dtype=QAny(bitsize=7)),2,False
+16,1,3,PREP_local,Join,Join,Join(dtype=QUInt(bitsize=7)),2,False
+16,1,3,PREP_local,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+16,1,3,PREP_local,Split,Split,Split(dtype=QAny(bitsize=27)),2,False
+16,1,3,PREP_local,Split,Split,Split(dtype=QAny(bitsize=7)),2,False
+16,1,3,PREP_local,Split,Split,Split(dtype=QUInt(bitsize=7)),2,False
+16,1,3,PREP_local,Toffoli,Toffoli,Toffoli(),7,False
+16,1,3,PREP_local,XGate,X,XGate(),80,False
+16,1,3,local_routing,And,And,"And(cv1=1, cv2=0, uncompute=False)",127,False
+16,1,3,local_routing,And,And†,"And(cv1=1, cv2=1, uncompute=True)",127,True
+16,1,3,local_routing,CNOT,CNOT,CNOT(),127,False
+16,1,3,local_routing,CZ,CZ,CZ(),85,False
+16,1,3,local_routing,Join,Join,Join(dtype=QUInt(bitsize=7)),1,False
+16,1,3,local_routing,Split,Split,Split(dtype=QUInt(bitsize=7)),1,False
+16,1,3,rotation,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+16,1,3,rotation,And,And†,"And(cv1=1, cv2=1, uncompute=True)",19,True
+16,1,3,rotation,CNOT,CNOT,CNOT(),261,False
+16,1,3,rotation,CZ,CZ,CZ(),3,False
+16,1,3,rotation,Hadamard,H,Hadamard(),2,False
+16,1,3,rotation,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+16,1,3,rotation,Join,Join,Join(dtype=QAny(bitsize=21)),3,False
+16,1,3,rotation,SGate,S,SGate(is_adjoint=False),1,False
+16,1,3,rotation,SGate,S†,SGate(is_adjoint=True),1,False
+16,1,3,rotation,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+16,1,3,rotation,Split,Split,Split(dtype=QAny(bitsize=21)),3,False
+16,1,3,table_A,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,table_A,And,And,"And(cv1=1, cv2=0, uncompute=False)",3,False
+16,1,3,table_A,And,And†,"And(cv1=1, cv2=1, uncompute=True)",3,True
+16,1,3,table_A,CNOT,CNOT,CNOT(),23,False
+16,1,3,table_A,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,table_A,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+16,1,3,table_A,Join,Join,Join(dtype=QUInt(bitsize=2)),1,False
+16,1,3,table_A,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+16,1,3,table_A,Split,Split,Split(dtype=QUInt(bitsize=2)),1,False
+16,1,3,table_A,XGate,X,XGate(),2,False
+16,1,3,table_B,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+16,1,3,table_B,And,And,"And(cv1=1, cv2=0, uncompute=False)",3,False
+16,1,3,table_B,And,And†,"And(cv1=1, cv2=1, uncompute=True)",3,True
+16,1,3,table_B,CNOT,CNOT,CNOT(),23,False
+16,1,3,table_B,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+16,1,3,table_B,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+16,1,3,table_B,Join,Join,Join(dtype=QUInt(bitsize=2)),1,False
+16,1,3,table_B,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+16,1,3,table_B,Split,Split,Split(dtype=QUInt(bitsize=2)),1,False
+16,1,3,table_B,XGate,X,XGate(),2,False
+64,2,7,DEC,And,And,"And(cv1=1, cv2=0, uncompute=False)",127,False
+64,2,7,DEC,And,And†,"And(cv1=1, cv2=0, uncompute=True)",64,True
+64,2,7,DEC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",63,True
+64,2,7,DEC,CNOT,CNOT,CNOT(),191,False
+64,2,7,DEC,Join,Join,Join(dtype=QAny(bitsize=192)),1,False
+64,2,7,DEC,Join,Join,Join(dtype=QUInt(bitsize=6)),1,False
+64,2,7,DEC,Split,Split,Split(dtype=QAny(bitsize=192)),1,False
+64,2,7,DEC,Split,Split,Split(dtype=QUInt(bitsize=6)),1,False
+64,2,7,DEC,Toffoli,Toffoli,Toffoli(),64,False
+64,2,7,DEC,XGate,X,XGate(),128,False
+64,2,7,DEST,And,And,"And(cv1=1, cv2=1, uncompute=False)",2,False
+64,2,7,DEST,And,And†,"And(cv1=1, cv2=1, uncompute=True)",2,True
+64,2,7,DEST,CNOT,CNOT,CNOT(),22,False
+64,2,7,DEST,Join,Join,Join(dtype=QUInt(bitsize=6)),2,False
+64,2,7,DEST,Split,Split,Split(dtype=QUInt(bitsize=6)),2,False
+64,2,7,DEST,Toffoli,Toffoli,Toffoli(),2,False
+64,2,7,DEST,XGate,X,XGate(),2,False
+64,2,7,INC,And,And,"And(cv1=1, cv2=0, uncompute=False)",63,False
+64,2,7,INC,And,And,"And(cv1=1, cv2=1, uncompute=False)",64,False
+64,2,7,INC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",127,True
+64,2,7,INC,CNOT,CNOT,CNOT(),191,False
+64,2,7,INC,Join,Join,Join(dtype=QAny(bitsize=192)),1,False
+64,2,7,INC,Join,Join,Join(dtype=QUInt(bitsize=6)),1,False
+64,2,7,INC,Split,Split,Split(dtype=QAny(bitsize=192)),1,False
+64,2,7,INC,Split,Split,Split(dtype=QUInt(bitsize=6)),1,False
+64,2,7,INC,Toffoli,Toffoli,Toffoli(),64,False
+64,2,7,LOAD,And,And,"And(cv1=1, cv2=0, uncompute=False)",189,False
+64,2,7,LOAD,And,And†,"And(cv1=1, cv2=1, uncompute=True)",189,True
+64,2,7,LOAD,CNOT,CNOT,CNOT(),189,False
+64,2,7,LOAD,CZ,CZ,CZ(),192,False
+64,2,7,LOAD,Hadamard,H,Hadamard(),6,False
+64,2,7,LOAD,Join,Join,Join(dtype=QAny(bitsize=192)),1,False
+64,2,7,LOAD,Join,Join,Join(dtype=QAny(bitsize=3)),1,False
+64,2,7,LOAD,Join,Join,Join(dtype=QUInt(bitsize=6)),1,False
+64,2,7,LOAD,Split,Split,Split(dtype=QAny(bitsize=192)),1,False
+64,2,7,LOAD,Split,Split,Split(dtype=QAny(bitsize=3)),1,False
+64,2,7,LOAD,Split,Split,Split(dtype=QUInt(bitsize=6)),1,False
+64,2,7,O_F,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=3), dirty=False)",2,False
+64,2,7,O_F,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,O_F,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=6), dirty=False)",1,False
+64,2,7,O_F,And,And,"And(cv1=1, cv2=0, uncompute=False)",1136,False
+64,2,7,O_F,And,And†,"And(cv1=1, cv2=0, uncompute=True)",2,True
+64,2,7,O_F,And,And,"And(cv1=1, cv2=1, uncompute=False)",6,False
+64,2,7,O_F,And,And†,"And(cv1=1, cv2=1, uncompute=True)",1140,True
+64,2,7,O_F,CNOT,CNOT,CNOT(),1754,False
+64,2,7,O_F,CZ,CZ,CZ(),768,False
+64,2,7,O_F,Free,Free,"Free(dtype=QAny(bitsize=3), dirty=False)",2,False
+64,2,7,O_F,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,O_F,Free,Free,"Free(dtype=QUInt(bitsize=6), dirty=False)",1,False
+64,2,7,O_F,Hadamard,H,Hadamard(),24,False
+64,2,7,O_F,Join,Join,Join(dtype=QAny(bitsize=192)),8,False
+64,2,7,O_F,Join,Join,Join(dtype=QAny(bitsize=3)),6,False
+64,2,7,O_F,Join,Join,Join(dtype=QUInt(bitsize=6)),10,False
+64,2,7,O_F,Split,Split,Split(dtype=QAny(bitsize=192)),8,False
+64,2,7,O_F,Split,Split,Split(dtype=QAny(bitsize=3)),6,False
+64,2,7,O_F,Split,Split,Split(dtype=QUInt(bitsize=6)),10,False
+64,2,7,O_F,Toffoli,Toffoli,Toffoli(),4,False
+64,2,7,O_F,XGate,X,XGate(),6,False
+64,2,7,O_R,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=3), dirty=False)",2,False
+64,2,7,O_R,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,O_R,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=6), dirty=False)",1,False
+64,2,7,O_R,And,And,"And(cv1=1, cv2=0, uncompute=False)",1136,False
+64,2,7,O_R,And,And†,"And(cv1=1, cv2=0, uncompute=True)",2,True
+64,2,7,O_R,And,And,"And(cv1=1, cv2=1, uncompute=False)",6,False
+64,2,7,O_R,And,And†,"And(cv1=1, cv2=1, uncompute=True)",1140,True
+64,2,7,O_R,CNOT,CNOT,CNOT(),1754,False
+64,2,7,O_R,CZ,CZ,CZ(),768,False
+64,2,7,O_R,Free,Free,"Free(dtype=QAny(bitsize=3), dirty=False)",2,False
+64,2,7,O_R,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,O_R,Free,Free,"Free(dtype=QUInt(bitsize=6), dirty=False)",1,False
+64,2,7,O_R,Hadamard,H,Hadamard(),24,False
+64,2,7,O_R,Join,Join,Join(dtype=QAny(bitsize=192)),8,False
+64,2,7,O_R,Join,Join,Join(dtype=QAny(bitsize=3)),6,False
+64,2,7,O_R,Join,Join,Join(dtype=QUInt(bitsize=6)),10,False
+64,2,7,O_R,Split,Split,Split(dtype=QAny(bitsize=192)),8,False
+64,2,7,O_R,Split,Split,Split(dtype=QAny(bitsize=3)),6,False
+64,2,7,O_R,Split,Split,Split(dtype=QUInt(bitsize=6)),10,False
+64,2,7,O_R,Toffoli,Toffoli,Toffoli(),4,False
+64,2,7,O_R,XGate,X,XGate(),6,False
+64,2,7,PREP_hop,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,PREP_hop,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+64,2,7,PREP_hop,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+64,2,7,PREP_hop,And,And,"And(cv1=1, cv2=0, uncompute=False)",255,False
+64,2,7,PREP_hop,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+64,2,7,PREP_hop,And,And†,"And(cv1=1, cv2=1, uncompute=True)",274,True
+64,2,7,PREP_hop,CNOT,CNOT,CNOT(),1486,False
+64,2,7,PREP_hop,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,PREP_hop,Hadamard,H,Hadamard(),28,False
+64,2,7,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+64,2,7,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=28)),2,False
+64,2,7,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=8)),2,False
+64,2,7,PREP_hop,Join,Join,Join(dtype=QUInt(bitsize=8)),2,False
+64,2,7,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+64,2,7,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=28)),2,False
+64,2,7,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=8)),2,False
+64,2,7,PREP_hop,Split,Split,Split(dtype=QUInt(bitsize=8)),2,False
+64,2,7,PREP_hop,Toffoli,Toffoli,Toffoli(),8,False
+64,2,7,PREP_hop,XGate,X,XGate(),80,False
+64,2,7,PREP_local,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,PREP_local,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+64,2,7,PREP_local,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+64,2,7,PREP_local,And,And,"And(cv1=1, cv2=0, uncompute=False)",511,False
+64,2,7,PREP_local,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+64,2,7,PREP_local,And,And†,"And(cv1=1, cv2=1, uncompute=True)",530,True
+64,2,7,PREP_local,CNOT,CNOT,CNOT(),7122,False
+64,2,7,PREP_local,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,PREP_local,Hadamard,H,Hadamard(),29,False
+64,2,7,PREP_local,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+64,2,7,PREP_local,Join,Join,Join(dtype=QAny(bitsize=29)),2,False
+64,2,7,PREP_local,Join,Join,Join(dtype=QAny(bitsize=9)),2,False
+64,2,7,PREP_local,Join,Join,Join(dtype=QUInt(bitsize=9)),2,False
+64,2,7,PREP_local,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+64,2,7,PREP_local,Split,Split,Split(dtype=QAny(bitsize=29)),2,False
+64,2,7,PREP_local,Split,Split,Split(dtype=QAny(bitsize=9)),2,False
+64,2,7,PREP_local,Split,Split,Split(dtype=QUInt(bitsize=9)),2,False
+64,2,7,PREP_local,Toffoli,Toffoli,Toffoli(),9,False
+64,2,7,PREP_local,XGate,X,XGate(),80,False
+64,2,7,local_routing,And,And,"And(cv1=1, cv2=0, uncompute=False)",511,False
+64,2,7,local_routing,And,And†,"And(cv1=1, cv2=1, uncompute=True)",511,True
+64,2,7,local_routing,CNOT,CNOT,CNOT(),511,False
+64,2,7,local_routing,CZ,CZ,CZ(),341,False
+64,2,7,local_routing,Join,Join,Join(dtype=QUInt(bitsize=9)),1,False
+64,2,7,local_routing,Split,Split,Split(dtype=QUInt(bitsize=9)),1,False
+64,2,7,rotation,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+64,2,7,rotation,And,And†,"And(cv1=1, cv2=1, uncompute=True)",19,True
+64,2,7,rotation,CNOT,CNOT,CNOT(),261,False
+64,2,7,rotation,CZ,CZ,CZ(),3,False
+64,2,7,rotation,Hadamard,H,Hadamard(),2,False
+64,2,7,rotation,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+64,2,7,rotation,Join,Join,Join(dtype=QAny(bitsize=21)),3,False
+64,2,7,rotation,SGate,S,SGate(is_adjoint=False),1,False
+64,2,7,rotation,SGate,S†,SGate(is_adjoint=True),1,False
+64,2,7,rotation,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+64,2,7,rotation,Split,Split,Split(dtype=QAny(bitsize=21)),3,False
+64,2,7,table_A,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,table_A,And,And,"And(cv1=1, cv2=0, uncompute=False)",7,False
+64,2,7,table_A,And,And†,"And(cv1=1, cv2=1, uncompute=True)",7,True
+64,2,7,table_A,CNOT,CNOT,CNOT(),66,False
+64,2,7,table_A,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,table_A,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+64,2,7,table_A,Join,Join,Join(dtype=QUInt(bitsize=3)),1,False
+64,2,7,table_A,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+64,2,7,table_A,Split,Split,Split(dtype=QUInt(bitsize=3)),1,False
+64,2,7,table_A,XGate,X,XGate(),2,False
+64,2,7,table_B,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+64,2,7,table_B,And,And,"And(cv1=1, cv2=0, uncompute=False)",7,False
+64,2,7,table_B,And,And†,"And(cv1=1, cv2=1, uncompute=True)",7,True
+64,2,7,table_B,CNOT,CNOT,CNOT(),66,False
+64,2,7,table_B,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+64,2,7,table_B,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+64,2,7,table_B,Join,Join,Join(dtype=QUInt(bitsize=3)),1,False
+64,2,7,table_B,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+64,2,7,table_B,Split,Split,Split(dtype=QUInt(bitsize=3)),1,False
+64,2,7,table_B,XGate,X,XGate(),2,False
+256,4,15,DEC,And,And,"And(cv1=1, cv2=0, uncompute=False)",767,False
+256,4,15,DEC,And,And†,"And(cv1=1, cv2=0, uncompute=True)",512,True
+256,4,15,DEC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",255,True
+256,4,15,DEC,CNOT,CNOT,CNOT(),1023,False
+256,4,15,DEC,Join,Join,Join(dtype=QAny(bitsize=1024)),1,False
+256,4,15,DEC,Join,Join,Join(dtype=QUInt(bitsize=8)),1,False
+256,4,15,DEC,Split,Split,Split(dtype=QAny(bitsize=1024)),1,False
+256,4,15,DEC,Split,Split,Split(dtype=QUInt(bitsize=8)),1,False
+256,4,15,DEC,Toffoli,Toffoli,Toffoli(),256,False
+256,4,15,DEC,XGate,X,XGate(),512,False
+256,4,15,DEST,And,And,"And(cv1=1, cv2=1, uncompute=False)",4,False
+256,4,15,DEST,And,And†,"And(cv1=1, cv2=1, uncompute=True)",4,True
+256,4,15,DEST,CNOT,CNOT,CNOT(),30,False
+256,4,15,DEST,Join,Join,Join(dtype=QUInt(bitsize=8)),2,False
+256,4,15,DEST,Split,Split,Split(dtype=QUInt(bitsize=8)),2,False
+256,4,15,DEST,Toffoli,Toffoli,Toffoli(),2,False
+256,4,15,DEST,XGate,X,XGate(),2,False
+256,4,15,INC,And,And,"And(cv1=1, cv2=0, uncompute=False)",255,False
+256,4,15,INC,And,And,"And(cv1=1, cv2=1, uncompute=False)",512,False
+256,4,15,INC,And,And†,"And(cv1=1, cv2=1, uncompute=True)",767,True
+256,4,15,INC,CNOT,CNOT,CNOT(),1023,False
+256,4,15,INC,Join,Join,Join(dtype=QAny(bitsize=1024)),1,False
+256,4,15,INC,Join,Join,Join(dtype=QUInt(bitsize=8)),1,False
+256,4,15,INC,Split,Split,Split(dtype=QAny(bitsize=1024)),1,False
+256,4,15,INC,Split,Split,Split(dtype=QUInt(bitsize=8)),1,False
+256,4,15,INC,Toffoli,Toffoli,Toffoli(),256,False
+256,4,15,LOAD,And,And,"And(cv1=1, cv2=0, uncompute=False)",1020,False
+256,4,15,LOAD,And,And†,"And(cv1=1, cv2=1, uncompute=True)",1020,True
+256,4,15,LOAD,CNOT,CNOT,CNOT(),1020,False
+256,4,15,LOAD,CZ,CZ,CZ(),1024,False
+256,4,15,LOAD,Hadamard,H,Hadamard(),8,False
+256,4,15,LOAD,Join,Join,Join(dtype=QAny(bitsize=1024)),1,False
+256,4,15,LOAD,Join,Join,Join(dtype=QAny(bitsize=4)),1,False
+256,4,15,LOAD,Join,Join,Join(dtype=QUInt(bitsize=8)),1,False
+256,4,15,LOAD,Split,Split,Split(dtype=QAny(bitsize=1024)),1,False
+256,4,15,LOAD,Split,Split,Split(dtype=QAny(bitsize=4)),1,False
+256,4,15,LOAD,Split,Split,Split(dtype=QUInt(bitsize=8)),1,False
+256,4,15,O_F,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=4), dirty=False)",2,False
+256,4,15,O_F,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,O_F,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=8), dirty=False)",1,False
+256,4,15,O_F,And,And,"And(cv1=1, cv2=0, uncompute=False)",6123,False
+256,4,15,O_F,And,And†,"And(cv1=1, cv2=0, uncompute=True)",3,True
+256,4,15,O_F,And,And,"And(cv1=1, cv2=1, uncompute=False)",11,False
+256,4,15,O_F,And,And†,"And(cv1=1, cv2=1, uncompute=True)",6131,True
+256,4,15,O_F,CNOT,CNOT,CNOT(),9252,False
+256,4,15,O_F,CZ,CZ,CZ(),4096,False
+256,4,15,O_F,Free,Free,"Free(dtype=QAny(bitsize=4), dirty=False)",2,False
+256,4,15,O_F,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,O_F,Free,Free,"Free(dtype=QUInt(bitsize=8), dirty=False)",1,False
+256,4,15,O_F,Hadamard,H,Hadamard(),32,False
+256,4,15,O_F,Join,Join,Join(dtype=QAny(bitsize=1024)),8,False
+256,4,15,O_F,Join,Join,Join(dtype=QAny(bitsize=4)),6,False
+256,4,15,O_F,Join,Join,Join(dtype=QUInt(bitsize=8)),10,False
+256,4,15,O_F,Split,Split,Split(dtype=QAny(bitsize=1024)),8,False
+256,4,15,O_F,Split,Split,Split(dtype=QAny(bitsize=4)),6,False
+256,4,15,O_F,Split,Split,Split(dtype=QUInt(bitsize=8)),10,False
+256,4,15,O_F,Toffoli,Toffoli,Toffoli(),4,False
+256,4,15,O_F,XGate,X,XGate(),6,False
+256,4,15,O_R,Allocate,Allocate,"Allocate(dtype=QAny(bitsize=4), dirty=False)",2,False
+256,4,15,O_R,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,O_R,Allocate,Allocate,"Allocate(dtype=QUInt(bitsize=8), dirty=False)",1,False
+256,4,15,O_R,And,And,"And(cv1=1, cv2=0, uncompute=False)",6123,False
+256,4,15,O_R,And,And†,"And(cv1=1, cv2=0, uncompute=True)",3,True
+256,4,15,O_R,And,And,"And(cv1=1, cv2=1, uncompute=False)",11,False
+256,4,15,O_R,And,And†,"And(cv1=1, cv2=1, uncompute=True)",6131,True
+256,4,15,O_R,CNOT,CNOT,CNOT(),9252,False
+256,4,15,O_R,CZ,CZ,CZ(),4096,False
+256,4,15,O_R,Free,Free,"Free(dtype=QAny(bitsize=4), dirty=False)",2,False
+256,4,15,O_R,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,O_R,Free,Free,"Free(dtype=QUInt(bitsize=8), dirty=False)",1,False
+256,4,15,O_R,Hadamard,H,Hadamard(),32,False
+256,4,15,O_R,Join,Join,Join(dtype=QAny(bitsize=1024)),8,False
+256,4,15,O_R,Join,Join,Join(dtype=QAny(bitsize=4)),6,False
+256,4,15,O_R,Join,Join,Join(dtype=QUInt(bitsize=8)),10,False
+256,4,15,O_R,Split,Split,Split(dtype=QAny(bitsize=1024)),8,False
+256,4,15,O_R,Split,Split,Split(dtype=QAny(bitsize=4)),6,False
+256,4,15,O_R,Split,Split,Split(dtype=QUInt(bitsize=8)),10,False
+256,4,15,O_R,Toffoli,Toffoli,Toffoli(),4,False
+256,4,15,O_R,XGate,X,XGate(),6,False
+256,4,15,PREP_hop,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,PREP_hop,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+256,4,15,PREP_hop,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+256,4,15,PREP_hop,And,And,"And(cv1=1, cv2=0, uncompute=False)",1023,False
+256,4,15,PREP_hop,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+256,4,15,PREP_hop,And,And†,"And(cv1=1, cv2=1, uncompute=True)",1042,True
+256,4,15,PREP_hop,CNOT,CNOT,CNOT(),6354,False
+256,4,15,PREP_hop,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,PREP_hop,Hadamard,H,Hadamard(),30,False
+256,4,15,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=10)),2,False
+256,4,15,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+256,4,15,PREP_hop,Join,Join,Join(dtype=QAny(bitsize=30)),2,False
+256,4,15,PREP_hop,Join,Join,Join(dtype=QUInt(bitsize=10)),2,False
+256,4,15,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=10)),2,False
+256,4,15,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+256,4,15,PREP_hop,Split,Split,Split(dtype=QAny(bitsize=30)),2,False
+256,4,15,PREP_hop,Split,Split,Split(dtype=QUInt(bitsize=10)),2,False
+256,4,15,PREP_hop,Toffoli,Toffoli,Toffoli(),10,False
+256,4,15,PREP_hop,XGate,X,XGate(),80,False
+256,4,15,PREP_local,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,PREP_local,And,And,"And(cv1=0, cv2=1, uncompute=False)",1,False
+256,4,15,PREP_local,And,And†,"And(cv1=0, cv2=1, uncompute=True)",1,True
+256,4,15,PREP_local,And,And,"And(cv1=1, cv2=0, uncompute=False)",4095,False
+256,4,15,PREP_local,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+256,4,15,PREP_local,And,And†,"And(cv1=1, cv2=1, uncompute=True)",4114,True
+256,4,15,PREP_local,CNOT,CNOT,CNOT(),51998,False
+256,4,15,PREP_local,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,PREP_local,Hadamard,H,Hadamard(),32,False
+256,4,15,PREP_local,Join,Join,Join(dtype=QAny(bitsize=12)),2,False
+256,4,15,PREP_local,Join,Join,Join(dtype=QAny(bitsize=20)),4,False
+256,4,15,PREP_local,Join,Join,Join(dtype=QAny(bitsize=32)),2,False
+256,4,15,PREP_local,Join,Join,Join(dtype=QUInt(bitsize=12)),2,False
+256,4,15,PREP_local,Split,Split,Split(dtype=QAny(bitsize=12)),2,False
+256,4,15,PREP_local,Split,Split,Split(dtype=QAny(bitsize=20)),4,False
+256,4,15,PREP_local,Split,Split,Split(dtype=QAny(bitsize=32)),2,False
+256,4,15,PREP_local,Split,Split,Split(dtype=QUInt(bitsize=12)),2,False
+256,4,15,PREP_local,Toffoli,Toffoli,Toffoli(),12,False
+256,4,15,PREP_local,XGate,X,XGate(),80,False
+256,4,15,local_routing,And,And,"And(cv1=1, cv2=0, uncompute=False)",4095,False
+256,4,15,local_routing,And,And†,"And(cv1=1, cv2=1, uncompute=True)",4095,True
+256,4,15,local_routing,CNOT,CNOT,CNOT(),4095,False
+256,4,15,local_routing,CZ,CZ,CZ(),2730,False
+256,4,15,local_routing,Join,Join,Join(dtype=QUInt(bitsize=12)),1,False
+256,4,15,local_routing,Split,Split,Split(dtype=QUInt(bitsize=12)),1,False
+256,4,15,rotation,And,And,"And(cv1=1, cv2=1, uncompute=False)",19,False
+256,4,15,rotation,And,And†,"And(cv1=1, cv2=1, uncompute=True)",19,True
+256,4,15,rotation,CNOT,CNOT,CNOT(),261,False
+256,4,15,rotation,CZ,CZ,CZ(),3,False
+256,4,15,rotation,Hadamard,H,Hadamard(),2,False
+256,4,15,rotation,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+256,4,15,rotation,Join,Join,Join(dtype=QAny(bitsize=21)),3,False
+256,4,15,rotation,SGate,S,SGate(is_adjoint=False),1,False
+256,4,15,rotation,SGate,S†,SGate(is_adjoint=True),1,False
+256,4,15,rotation,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+256,4,15,rotation,Split,Split,Split(dtype=QAny(bitsize=21)),3,False
+256,4,15,table_A,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,table_A,And,And,"And(cv1=1, cv2=0, uncompute=False)",15,False
+256,4,15,table_A,And,And†,"And(cv1=1, cv2=1, uncompute=True)",15,True
+256,4,15,table_A,CNOT,CNOT,CNOT(),151,False
+256,4,15,table_A,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,table_A,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+256,4,15,table_A,Join,Join,Join(dtype=QUInt(bitsize=4)),1,False
+256,4,15,table_A,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+256,4,15,table_A,Split,Split,Split(dtype=QUInt(bitsize=4)),1,False
+256,4,15,table_A,XGate,X,XGate(),2,False
+256,4,15,table_B,Allocate,Allocate,"Allocate(dtype=QBit(), dirty=False)",1,False
+256,4,15,table_B,And,And,"And(cv1=1, cv2=0, uncompute=False)",15,False
+256,4,15,table_B,And,And†,"And(cv1=1, cv2=1, uncompute=True)",15,True
+256,4,15,table_B,CNOT,CNOT,CNOT(),151,False
+256,4,15,table_B,Free,Free,"Free(dtype=QBit(), dirty=False)",1,False
+256,4,15,table_B,Join,Join,Join(dtype=QAny(bitsize=20)),1,False
+256,4,15,table_B,Join,Join,Join(dtype=QUInt(bitsize=4)),1,False
+256,4,15,table_B,Split,Split,Split(dtype=QAny(bitsize=20)),1,False
+256,4,15,table_B,Split,Split,Split(dtype=QUInt(bitsize=4)),1,False
+256,4,15,table_B,XGate,X,XGate(),2,False

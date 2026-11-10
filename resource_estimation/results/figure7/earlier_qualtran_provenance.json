@@ -1,0 +1,19 @@
+{
+  "source": "Earlier complete-bundle Qualtran shared-walk sweep",
+  "original_csv_sha256": "e90208768c79617d4fdf622934aaf61bcb153304f14b2d47a7a909c4e237fdf8",
+  "original_sources_sha256": {
+    "tcl_manuscript_table_VI.py": "1d51d263cb00f0c9c486e37680ed631510eb51e3263b279dd2f2e2f650607553",
+    "tcl_manuscript_explicit.py": "a5a0377e65c600936d50fdfd10041b3ed5dccc621510dee54ca3de7a8fda07cc",
+    "tcl_direct_register.py": "23e00f939d5c6b317ade417455573c2b6196fae33f777e96fe42cb6e85159d63",
+    "tcl_explicit_phasegradient.py": "cabf309ac0851091b82893650df4acf3e4a0e3d17f1fa9a9da007e8de4f52a89",
+    "tcl_gqsp_pipeline_clean.py": "6040dd0a79637f9c09bb70385834e3e55f1e217b6088c9e37b3f75de3925c000",
+    "tcl_gqsp_numerical_first_case.py": "3a574ee53affccb7899d39c7f4b94a62296634e3d97edb856583a8249169eed7",
+    "tcl_revised_manuscript.py": "f93b326c945039da14a82ad122734fbbb1f54f7f529b030d82c13113a28d60b1",
+    "tcl_coherent_optimization.py": "d622fb36bdc1a204cbc97f008b83f2b591bab3788786f875d336aef7c5d9cf2b",
+    "tcl_revised_analysis.py": "2fcfed92743df8f4271da5e23fab29f2d5b857419202dd5fbeff49480b326d61"
+  },
+  "original_source_hashes_verified": true,
+  "source_files_verified": 9,
+  "resource_rows": 60,
+  "resource_points_transcribed_from_image": false
+}

@@ -1,0 +1,166 @@
+{
+  "plan": {
+    "Lx": 16,
+    "Ly": 16,
+    "L": 256,
+    "N": 4,
+    "n_max": 15,
+    "tau": "1.0",
+    "epsilon": "0.001",
+    "b": 27,
+    "B": 26,
+    "K": 4863,
+    "m": 28,
+    "n_signal": 9727,
+    "walk_queries": 9726,
+    "alpha": "4733.9349465163948904235677693771772014929118262185890064256755365002066861434665",
+    "alpha_local": "3965.9349465163948904235677693771772014929118262185890064256755365002066861434665",
+    "alpha_int": "3965.9349465163948904235677693771772014929118262185890064256755365002066861434665",
+    "alpha_hop": "768.0",
+    "two_eta_bound": "0.0000000293382114456760122428066288810738317742521834948671616159255360266866651184474",
+    "previous_degree_bound": "0.000000037178637519609308156923350428255028038584777086144904101840696976760559723978055",
+    "polynomial_budget": "0.00000003125",
+    "outer_rotation_error_bound": "0.000055402872154667589644263705628789689304401032406052754856621647958099250364161063",
+    "signal_rotation_error_bound": "0.00017075764988437994661103635387025619608118683145039707973947722119863031534820397",
+    "energy_origin": "uniform conserved-charge term removed; nu=1, Delta=0",
+    "planning_decimal_digits": 80
+  },
+  "modes": {
+    "direct": {
+      "a": 154,
+      "encoding": {
+        "coherent_ccx": 52212,
+        "direct_T": 0,
+        "T_with_7T_CCX": 365484,
+        "arbitrary_rotations": 2,
+        "clifford": 127982,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 94,
+        "peak_logical_qubits": 2326,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 221318,
+        "compiled_leaf_types": 54,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "walk": {
+        "coherent_ccx": 83720,
+        "direct_T": 0,
+        "T_with_7T_CCX": 586040,
+        "arbitrary_rotations": 2,
+        "clifford": 173291,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 167,
+        "peak_logical_qubits": 2399,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 318943,
+        "compiled_leaf_types": 72,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "evolution": {
+        "T": 5718208314,
+        "Clifford": 8241241168,
+        "physical_leaf_instances": 14578178908,
+        "peak_logical_qubits": 2428
+      }
+    },
+    "paired": {
+      "a": 154,
+      "encoding": {
+        "coherent_ccx": 55792,
+        "direct_T": 0,
+        "T_with_7T_CCX": 390544,
+        "arbitrary_rotations": 2,
+        "clifford": 135656,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 1044,
+        "peak_logical_qubits": 3276,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 235658,
+        "compiled_leaf_types": 56,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "walk": {
+        "coherent_ccx": 90880,
+        "direct_T": 0,
+        "T_with_7T_CCX": 636160,
+        "arbitrary_rotations": 2,
+        "clifford": 188639,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 1191,
+        "peak_logical_qubits": 3423,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 347647,
+        "compiled_leaf_types": 72,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "evolution": {
+        "T": 6205675434,
+        "Clifford": 8947621096,
+        "physical_leaf_instances": 15832288252,
+        "peak_logical_qubits": 3452
+      }
+    },
+    "sparse": {
+      "a": 154,
+      "encoding": {
+        "coherent_ccx": 58864,
+        "direct_T": 0,
+        "T_with_7T_CCX": 412048,
+        "arbitrary_rotations": 2,
+        "clifford": 135656,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 1044,
+        "peak_logical_qubits": 3276,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 238734,
+        "compiled_leaf_types": 56,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "walk": {
+        "coherent_ccx": 97024,
+        "direct_T": 0,
+        "T_with_7T_CCX": 679168,
+        "arbitrary_rotations": 2,
+        "clifford": 188639,
+        "temporary_AND": 0,
+        "measurement": 0,
+        "block_ancilla_bits": 0,
+        "reusable_catalyst_bits": 0,
+        "clean_workspace_peak": 1191,
+        "peak_logical_qubits": 3423,
+        "additional_photon_register_bits": 0,
+        "compiled_leaf_instances": 353799,
+        "compiled_leaf_types": 72,
+        "count_status": "recursive executable decomposition; rotations unsynthesized"
+      },
+      "evolution": {
+        "T": 6623971242,
+        "Clifford": 9425673448,
+        "physical_leaf_instances": 16728714220,
+        "peak_logical_qubits": 3452
+      }
+    }
+  },
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "numerical_phases_generated": false,
+  "scope": "Generic GQSP schedule, supplied catalysts, seven-T coherent CCXs; no external Hadamard control"
+}

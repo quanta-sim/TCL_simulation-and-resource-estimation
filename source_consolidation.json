@@ -1,0 +1,1215 @@
+{
+  "source_files": {
+    "tcl_gqsp_pipeline_clean.py": "6040dd0a79637f9c09bb70385834e3e55f1e217b6088c9e37b3f75de3925c000",
+    "tcl_explicit_phasegradient.py": "cabf309ac0851091b82893650df4acf3e4a0e3d17f1fa9a9da007e8de4f52a89",
+    "tcl_direct_register.py": "23e00f939d5c6b317ade417455573c2b6196fae33f777e96fe42cb6e85159d63",
+    "tcl_manuscript_explicit.py": "a5a0377e65c600936d50fdfd10041b3ed5dccc621510dee54ca3de7a8fda07cc",
+    "tcl_manuscript_table_VI.py": "1d51d263cb00f0c9c486e37680ed631510eb51e3263b279dd2f2e2f650607553",
+    "tcl_revised_manuscript.py": "f93b326c945039da14a82ad122734fbbb1f54f7f529b030d82c13113a28d60b1",
+    "tcl_appendix_h.py": "f7692e1d1968846768703efb1772121021ffd618b69a72da30bec38fe570e1e3",
+    "tcl_open_direct.py": "8dd3e552d0c3bf872c07e39d4d2d36ae18c28c1d96b72ddab8b1bc957aaad89d",
+    "tcl_lindblad_qualtran.py": "04208fd8995ada370914ed805f3675e990e53122532b5567b812a62c725a5c54",
+    "tcl_gqsp_numerical_first_case.py": "3a574ee53affccb7899d39c7f4b94a62296634e3d97edb856583a8249169eed7",
+    "tcl_direct_validation.py": "fcdf36b9604f79045d4447ee46a360d19507cc482d0b84ec0a339163276b46ff",
+    "tcl_manuscript_validation.py": "0403b7078c62524334317151fb67f36863f7f46b3cacab60823950837bfe076d",
+    "Codes/validate_open.py": "a466bda8821407bad79610e088b1e92cc47fe6d41c93a9990cdd4cf651133ecd",
+    "tcl_table_II_qualtran_audit.py": "ce30340d4b77934fd5361f4eee422bc2a5e1c5284179928de5a658ab84bde34e"
+  },
+  "definitions": [
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "q_ph_from_nmax"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 88
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "normalize_mu_2d"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 964
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "normalize_g_2d"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 972
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "build_tcl_local_coefficients_2d"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 980
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "integerize_probabilities"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 1110
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "build_integer_alias_table_from_weights"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 1129
+    },
+    {
+      "source": "tcl_gqsp_pipeline_clean.py",
+      "names": [
+        "probabilities_from_integer_alias_table"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 1161
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_split"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 46
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_join"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 50
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_cx"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 54
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_ccx"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 59
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_inc"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 64
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_unary"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 95
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "build_selected_shift"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 132
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "build_indexed_load"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 149
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "build_destination"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 167
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "build_classical_lookup"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 198
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "build_row_map_update"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 262
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_is_terminal"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 301
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_fast_adjoint"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 311
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "Coherent"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 333
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "CoherentAdjoint"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 423
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "coherent"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 442
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "_ZeroSignal"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 446
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "compiled_leaf_counts"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 756
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "compiled_peak_qubits"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 768
+    },
+    {
+      "source": "tcl_direct_register.py",
+      "names": [
+        "circuit_resources"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 786
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "_cz"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 29
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "_fredkin"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 34
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "comparator"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 42
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "AliasPreparation"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 81
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "gradient_add"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 134
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "angle_oracle"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 167
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "factor_tables"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 194
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "emitter_read"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 203
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "emitter_flip"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 220
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "build_paired_update"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 230
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "LocalSelect"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 260
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "HoppingSelect"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 327
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "_take_prep"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 380
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "_prep_bits"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 387
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "ManuscriptTCL"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 392
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "DoublyEnabledEncoding"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 451
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "reflection"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 469
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "ControlledWalk"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 484
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "build_pair"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 498
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "BankedCircuit"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 522
+    },
+    {
+      "source": "tcl_manuscript_explicit.py",
+      "names": [
+        "declared_workspace"
+      ],
+      "destination": "block_encoding.py",
+      "source_line": 582
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "_split",
+        "_join",
+        "_cx"
+      ],
+      "destination": "walk.py",
+      "source_line": 34
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "precision_plan"
+      ],
+      "destination": "walk.py",
+      "source_line": 43
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "rounded_word"
+      ],
+      "destination": "walk.py",
+      "source_line": 84
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "ControlledGridRotation"
+      ],
+      "destination": "walk.py",
+      "source_line": 90
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "exact_seven_t_toffoli"
+      ],
+      "destination": "walk.py",
+      "source_line": 222
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "clifford_t_leaves"
+      ],
+      "destination": "walk.py",
+      "source_line": 236
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "leaf_cost"
+      ],
+      "destination": "walk.py",
+      "source_line": 245
+    },
+    {
+      "source": "tcl_manuscript_table_VI.py",
+      "names": [
+        "printed_tail_bound"
+      ],
+      "destination": "walk.py",
+      "source_line": 268
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "POINTS"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 26
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "precision_plan"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 33
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "build_pair"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 63
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "base"
+      ],
+      "destination": "walk.py",
+      "source_line": 71
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "F"
+      ],
+      "destination": "walk.py",
+      "source_line": 76
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "StripPreparations"
+      ],
+      "destination": "walk.py",
+      "source_line": 89
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "SharedWalk"
+      ],
+      "destination": "walk.py",
+      "source_line": 116
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "FixedSharedWalk"
+      ],
+      "destination": "walk.py",
+      "source_line": 133
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "GridRotation"
+      ],
+      "destination": "walk.py",
+      "source_line": 144
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "ReplaceSharedOuterRotations"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 165
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "RoundedSharedWalk"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 204
+    },
+    {
+      "source": "tcl_revised_manuscript.py",
+      "names": [
+        "EvolutionSchedule"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 224
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "KINDS"
+      ],
+      "destination": "walk.py",
+      "source_line": 21
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "plan"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 24
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "build_full"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 88
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "Jump"
+      ],
+      "destination": "walk.py",
+      "source_line": 93
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "Walk"
+      ],
+      "destination": "walk.py",
+      "source_line": 128
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "ReplaceRotations"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 204
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "outer_words"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 238
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "scratch_width"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 250
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "RoundedWalk"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 257
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "EvolutionSchedule"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 277
+    },
+    {
+      "source": "tcl_appendix_h.py",
+      "names": [
+        "StepChannel"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 297
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "rz"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 34
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "ry"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 38
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "polynomial_data"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 43
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "complementary_polynomial"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 70
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "phase_factors"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 96
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "raw_rotation"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 119
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "su2_euler_sequence"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 126
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "spectral_response"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 154
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "reconstruct_polynomials"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 167
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "build_phases"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 180
+    },
+    {
+      "source": "tcl_gqsp_numerical_first_case.py",
+      "names": [
+        "validate_spectral"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 248
+    },
+    {
+      "source": "tcl_direct_validation.py",
+      "names": [
+        "Tape"
+      ],
+      "destination": "validation.py",
+      "source_line": 24
+    },
+    {
+      "source": "tcl_direct_validation.py",
+      "names": [
+        "gate_tape"
+      ],
+      "destination": "validation.py",
+      "source_line": 31
+    },
+    {
+      "source": "tcl_direct_validation.py",
+      "names": [
+        "value_mask"
+      ],
+      "destination": "validation.py",
+      "source_line": 107
+    },
+    {
+      "source": "tcl_direct_validation.py",
+      "names": [
+        "_merge"
+      ],
+      "destination": "validation.py",
+      "source_line": 120
+    },
+    {
+      "source": "tcl_direct_validation.py",
+      "names": [
+        "_matrix"
+      ],
+      "destination": "validation.py",
+      "source_line": 129
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "extract"
+      ],
+      "destination": "validation.py",
+      "source_line": 19
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "run"
+      ],
+      "destination": "validation.py",
+      "source_line": 25
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "catalyst_state"
+      ],
+      "destination": "validation.py",
+      "source_line": 60
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "state_distance"
+      ],
+      "destination": "validation.py",
+      "source_line": 68
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "project"
+      ],
+      "destination": "validation.py",
+      "source_line": 81
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "projected_columns"
+      ],
+      "destination": "validation.py",
+      "source_line": 100
+    },
+    {
+      "source": "tcl_manuscript_validation.py",
+      "names": [
+        "rounded_tcl_columns"
+      ],
+      "destination": "validation.py",
+      "source_line": 203
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "HERE"
+      ],
+      "destination": "validation.py",
+      "source_line": 30
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "FIGURE"
+      ],
+      "destination": "validation.py",
+      "source_line": 31
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "FINAL_TIME"
+      ],
+      "destination": "validation.py",
+      "source_line": 32
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "TIME_POINTS"
+      ],
+      "destination": "validation.py",
+      "source_line": 33
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "STEP_COUNTS"
+      ],
+      "destination": "validation.py",
+      "source_line": 34
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "PARAMETERS"
+      ],
+      "destination": "validation.py",
+      "source_line": 35
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "tensor"
+      ],
+      "destination": "validation.py",
+      "source_line": 46
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "local_operator"
+      ],
+      "destination": "validation.py",
+      "source_line": 53
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "full_operators"
+      ],
+      "destination": "validation.py",
+      "source_line": 58
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "basis_and_operators"
+      ],
+      "destination": "validation.py",
+      "source_line": 72
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "generator"
+      ],
+      "destination": "validation.py",
+      "source_line": 142
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "jumps_for"
+      ],
+      "destination": "validation.py",
+      "source_line": 154
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "pack"
+      ],
+      "destination": "validation.py",
+      "source_line": 159
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "unpack"
+      ],
+      "destination": "validation.py",
+      "source_line": 163
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "values"
+      ],
+      "destination": "validation.py",
+      "source_line": 169
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "trace_norm"
+      ],
+      "destination": "validation.py",
+      "source_line": 173
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "kraus_map"
+      ],
+      "destination": "validation.py",
+      "source_line": 178
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "sampled_map"
+      ],
+      "destination": "validation.py",
+      "source_line": 187
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "loss_kraus"
+      ],
+      "destination": "validation.py",
+      "source_line": 204
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "symmetric_split_map"
+      ],
+      "destination": "validation.py",
+      "source_line": 222
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "evolve_map"
+      ],
+      "destination": "validation.py",
+      "source_line": 240
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "write_csv"
+      ],
+      "destination": "validation.py",
+      "source_line": 265
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "make_plot"
+      ],
+      "destination": "validation.py",
+      "source_line": 272
+    },
+    {
+      "source": "Codes/validate_open.py",
+      "names": [
+        "main"
+      ],
+      "destination": "validation.py",
+      "source_line": 336
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "ROOT"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 22
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "OUT"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 23
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "CASES"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 24
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "_ccx",
+        "_split",
+        "_join",
+        "_cx"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 25
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "_and"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 28
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "_unary"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 37
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "lookup"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 63
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "indexed_load"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 81
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "_inc"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 103
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "selected_shift"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 120
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "destination"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 132
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "sampled_delta_write"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 149
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "row_oracle"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 179
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "_majority"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 238
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "compare_ge"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 249
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "alias_preparation"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 273
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "gradient_add"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 292
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "rotation"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 319
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "routing"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 334
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "physical_leaves"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 347
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "measured"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 357
+    },
+    {
+      "source": "tcl_table_II_qualtran_audit.py",
+      "names": [
+        "compile_audit"
+      ],
+      "destination": "gqsp.py",
+      "source_line": 373
+    }
+  ],
+  "notes": [
+    "Static AST consolidation with distinct symbol prefixes; no source-string loaders or virtual modules.",
+    "Unused legacy LocalTCLUnarySelectCore and ConcreteNativeAdjoint compatibility branches were removed from the coherent adapter. Active manuscript encodings and their adjoints are tested and counted afresh.",
+    "Notebook orchestration and the independent sector-matrix closed validation are new package code.",
+    "Historical source filenames identify development provenance; those files are not runtime dependencies."
+  ]
+}

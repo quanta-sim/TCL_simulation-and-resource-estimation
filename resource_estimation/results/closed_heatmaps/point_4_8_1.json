@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "Lx": 4,
+    "Ly": 8,
+    "L": 32,
+    "N": 1,
+    "n_max": 3,
+    "tau": "1.0",
+    "epsilon": "0.001",
+    "b": 21,
+    "B": 20,
+    "K": 106,
+    "m": 22,
+    "n_signal": 213,
+    "walk_queries": 212,
+    "alpha": "74.625625842204073392878282928187915742169768121932180097785823342461856541081601",
+    "alpha_local": "55.425625842204073392878282928187915742169768121932180097785823342461856541081601",
+    "alpha_int": "55.425625842204073392878282928187915742169768121932180097785823342461856541081601",
+    "alpha_hop": "19.2",
+    "two_eta_bound": "0.000000018827853429676390263293793212214431600311904906669388558862846202624896821210313",
+    "previous_degree_bound": "0.000000046460476967302895700971996107850492674229815345742601416401256184813178614473519",
+    "polynomial_budget": "0.00000003125",
+    "outer_rotation_error_bound": "0.000055895642737247692068937841818955756586994174071527749780995342724220728966909691",
+    "signal_rotation_error_bound": "0.00023930999107883904926510204338021306312107935502537400956189508372362788720332236",
+    "energy_origin": "uniform conserved-charge term removed; nu=1, Delta=0",
+    "planning_decimal_digits": 80
+  },
+  "modes": {
+    "direct": {
+      "T": 9789346,
+      "arithmetic_T": 9476824,
+      "rotation_T": 312522,
+      "peak_logical_qubits": 385,
+      "walk_Toffolis": 6386,
+      "native_count_origin": "Fresh recursive shared-walk decomposition"
+    },
+    "paired": {
+      "T": 10347330,
+      "arithmetic_T": 10034808,
+      "rotation_T": 312522,
+      "peak_logical_qubits": 449,
+      "walk_Toffolis": 6762,
+      "native_count_origin": "Fresh recursive shared-walk decomposition"
+    }
+  },
+  "measured_rotation_T": {
+    "y": 294,
+    "z": 294
+  },
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "method": "Measured complete shared-walk counts and measured fixed-angle modules, repeated in the specified GQSP schedule",
+  "numerical_phases_generated": false,
+  "measurement_repetitions_included": false,
+  "input_and_catalyst_preparations_included": false
+}

@@ -1,0 +1,18 @@
+{
+  "sources_sha256": {
+    "block_encoding.py": "4d42e55a679f8859f71bdacf307ecbcb5e6bab7abfe988faf3b22f57f30c3005",
+    "walk.py": "66af6feb53cf56b03ebe5d87194dcb74bba959fd551694232b544e8ecb484c2a",
+    "gqsp.py": "e0c6119026b19575dcab1352b469b61f8726269ce62906eb5da3c154b8eeae73"
+  },
+  "tables": [
+    "II",
+    "III",
+    "IV",
+    "VI",
+    "Appendix H",
+    "VII-style extension"
+  ],
+  "full_open_channel_error_certified": false,
+  "table_III_scope": "Primitive arithmetic bounds; DEST slack retained",
+  "table_VI_certificate_note": "Two printed decimal tail bounds round down; use upward-rounded certificates in table_VI.csv."
+}
